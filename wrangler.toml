@@ -1,0 +1,8 @@
+# 三语翻译 · Pro — Cloudflare Pages 项目配置
+name = "sanyu-fanyi-pro"
+compatibility_date = "2025-10-01"
+pages_build_output_dir = "./public"
+
+# 在 Cloudflare 控制台配置 GEMINI_API_KEY。
+# 可选绑定名为 RATE_LIMIT 的 KV 命名空间；未绑定时不启用服务端限流。
+# 内存缓存、请求去重和熔断仅在当前实例内生效。
